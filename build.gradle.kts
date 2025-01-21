@@ -14,10 +14,10 @@ repositories {
 dependencies {
     annotationProcessor("io.micronaut:micronaut-http-validation")
     annotationProcessor("io.micronaut.serde:micronaut-serde-processor")
-    implementation("io.micronaut.data:micronaut-data-tx-hibernate")
+    // implementation("io.micronaut.data:micronaut-data-tx-hibernate")
     implementation("io.micronaut.serde:micronaut-serde-jackson")
-    implementation("io.micronaut.sql:micronaut-hibernate-jpa")
-    implementation("io.micronaut.sql:micronaut-jdbc-hikari")
+    // implementation("io.micronaut.sql:micronaut-hibernate-jpa")
+    // implementation("io.micronaut.sql:micronaut-jdbc-hikari")
     compileOnly("io.micronaut:micronaut-http-client")
     runtimeOnly("ch.qos.logback:logback-classic")
     runtimeOnly("com.h2database:h2")
